@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
@@ -10,6 +11,7 @@
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
+
     body {
       margin: 0 auto;
       max-width: 36em;
@@ -22,96 +24,131 @@
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
+
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
         padding: 12px;
       }
+
       h1 {
         font-size: 1.8em;
       }
     }
+
     @media print {
       html {
         background-color: white;
       }
+
       body {
         background-color: transparent;
         color: black;
         font-size: 12pt;
       }
-      p, h2, h3 {
+
+      p,
+      h2,
+      h3 {
         orphans: 3;
         widows: 3;
       }
-      h2, h3, h4 {
+
+      h2,
+      h3,
+      h4 {
         page-break-after: avoid;
       }
     }
+
     p {
       margin: 1em 0;
     }
+
     a {
       color: #1a1a1a;
     }
+
     a:visited {
       color: #1a1a1a;
     }
+
     img {
       max-width: 100%;
     }
+
     svg {
       height: auto;
       max-width: 100%;
     }
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin-top: 1.4em;
     }
-    h5, h6 {
+
+    h5,
+    h6 {
       font-size: 1em;
       font-style: italic;
     }
+
     h6 {
       font-weight: normal;
     }
-    ol, ul {
+
+    ol,
+    ul {
       padding-left: 1.7em;
       margin-top: 1em;
     }
-    li > ol, li > ul {
+
+    li>ol,
+    li>ul {
       margin-top: 0;
     }
+
     blockquote {
       margin: 1em 0 1em 1.7em;
       padding-left: 1em;
       border-left: 2px solid #e6e6e6;
       color: #606060;
     }
+
     code {
       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
       hyphens: manual;
     }
+
     pre {
       margin: 1em 0;
       overflow: auto;
     }
+
     pre code {
       padding: 0;
       overflow: visible;
       overflow-wrap: normal;
     }
+
     .sourceCode {
-     background-color: transparent;
-     overflow: visible;
+      background-color: transparent;
+      overflow: visible;
     }
+
     hr {
       background-color: #1a1a1a;
       border: none;
       height: 1px;
       margin: 1em 0;
     }
+
     table {
       margin: 1em 0;
       border-collapse: collapse;
@@ -120,232 +157,301 @@
       display: block;
       font-variant-numeric: lining-nums tabular-nums;
     }
+
     table caption {
       margin-bottom: 0.75em;
     }
+
     tbody {
       margin-top: 0.5em;
       border-top: 1px solid #1a1a1a;
       border-bottom: 1px solid #1a1a1a;
     }
+
     th {
       border-top: 1px solid #1a1a1a;
       padding: 0.25em 0.5em 0.25em 0.5em;
     }
+
     td {
       padding: 0.125em 0.5em 0.25em 0.5em;
     }
+
     header {
       margin-bottom: 4em;
       text-align: center;
     }
+
     #TOC li {
       list-style: none;
     }
+
     #TOC ul {
       padding-left: 1.3em;
     }
-    #TOC > ul {
+
+    #TOC>ul {
       padding-left: 0;
     }
+
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+    code {
+      white-space: pre-wrap;
+    }
+
+    span.smallcaps {
+      font-variant: small-caps;
+    }
+
+    div.columns {
+      display: flex;
+      gap: min(4vw, 1.5em);
+    }
+
+    div.column {
+      flex: auto;
+      overflow-x: auto;
+    }
+
+    div.hanging-indent {
+      margin-left: 1.5em;
+      text-indent: -1.5em;
+    }
+
     /* The extra [class] is a hack that increases specificity enough to
        override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list[class] {
+      list-style: none;
+    }
+
     ul.task-list li input[type="checkbox"] {
       font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+    .title {
+      display: inline-block;
+      padding: 20px 40px;
+      margin: 10px;
+      font-size: 30px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #a7af4c;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+
+    .display.math {
+      display: block;
+      text-align: center;
+      margin: 0.5rem auto;
+    }
   </style>
 </head>
+
 <body>
-<header id="title-block-header">
-<h1 class="title">Nyhedsbrev September</h1>
-</header>
-<h1 id="indholdsfortegnelse">Indholdsfortegnelse</h1>
-<ol type="1">
-<li>Nedrigning</li>
-<li>Sejladsplan næste år</li>
-<li>Sejladsplan efterår</li>
-<li>Styrbord planke skal skiftes af Jens Bådbygger</li>
-<li>Tryouts
-<ol type="1">
-<li>Hver tirsdag</li>
-</ol></li>
-<li>Liggeplads</li>
-<li>Arbejdshold</li>
-<li>Ansøgning til skibsbevaringsfonden</li>
-<li>Sejltur med Viking</li>
-<li>Beddingstur til foråret</li>
-<li>Løst</li>
-</ol>
-<h1 id="nedrigning">Nedrigning</h1>
-<p><strong>12-13. oktober!</strong></p>
-<ul>
-<li><label><input type="checkbox" />Frederik laver en liste over hvad
-der skal hjem til Bo</label>
-<ul>
-<li>Hynder, bøger, sejl mm…
-<ul>
-<li>Der er et hul i betrækket på en hynde</li>
-</ul></li>
-<li>Der er også en liste over ting der skal fikses. De ting skal ikke
-hjem til Bo</li>
-</ul></li>
-<li>Skibsbibliotekar udnævnes - Amanda</li>
-</ul>
-<h1 id="sejladsplan-næste-år">Sejladsplan næste år</h1>
-<p>Vi har tilmeldt os hele tallship races i 2025</p>
-<ul>
-<li>Tall ships glæder sig til vi kommer (skrevet på mail)</li>
-</ul>
-<p>3 stk. - 3 ugers togter (det første skal starte meget tidligt)</p>
-<ol type="1">
-<li>Aalborg-Sønderborg en weekend + fredag</li>
-<li>Første togt er de to første havne (Sønderborg - Le Havre - Dunkirk)
-<ol type="1">
-<li>Alternativt (Aalborg - Le Havre - Dunkirk)</li>
-<li>Alternativt (Brunsbüttel - Le Havre - Dunkirk)</li>
-</ol></li>
-<li>Anden togt er Dunkirk - Aberdeen - Kristiansand</li>
-<li>Tredje togt er Christiansand - Esbjerg - Aalborg Alternativ er
-Esbjerg - Øresund (Øresund på langs)</li>
-</ol>
-<ul class="task-list">
-<li><label><input type="checkbox" />Bo laver en officielt togt
-plan</label></li>
-</ul>
-<p>Hvis der er nogen som virkelig gerne vil sejle Øresund på langs kan
-de kontakte Jens som muligvis har en kontakt som kan skaffe pladser
-ombord på et skib</p>
-<h1 id="sejladsplan-efterår">Sejladsplan efterår</h1>
-<p>Limfjorden Rundt - uge 37 Weekendsejladser:</p>
-<ol type="1">
-<li>Fredag d. 20. September</li>
-<li>Torsdag d. 3. Oktober</li>
-</ol>
-<h1 id="tryouts">Tryouts</h1>
-<ol type="1">
-<li>Hver tirsdag kl 16-18 (måske senere)</li>
-</ol>
-<ul>
-<li>Der skal laves mad hver gang</li>
-<li>Fast besætning:
-<ul>
-<li>Jeppe</li>
-<li>Kat</li>
-<li>Amanda</li>
-<li>Malene</li>
-<li>Jens</li>
-<li>Ekstra folk / byt med fast besætning</li>
-</ul></li>
-</ul>
-<ol type="1">
-<li>Afsluttes 08/10</li>
-</ol>
-<h1 id="liggeplads">Liggeplads</h1>
-<p>Bo har skrevet til rådmanden</p>
-<ul>
-<li>Til regatta sagde han det var spændende at finde ud af om vi kunne
-være her</li>
-<li>Dvs. vi ikke ved om vi kan blive liggende</li>
-</ul>
-<p>Morten har skrevet til skudehavnen uden held (de svarer ikke)</p>
-<p>I vintermånederne kunne vi ligge os i skudehavnen for at undgå så
-meget vind og vejr</p>
-<p>Kan vi få en rådmand herned til en onsdagssejlads hvor vi virkelig
-viser os frem som en ungdomsorganisation?</p>
-<ul>
-<li><label><input type="checkbox" />Et event - Planlagt af
-Amanda</label></li>
-<li>Stor fremmødning - gerne i Betty tøj</li>
-<li><label><input type="checkbox" />Morten skriver et
-udkast</label></li>
-<li><label><input type="checkbox" />Bo ringer til Jan Nymark Thaysen og
-pitcher eventet og hører hvad han tænker og om han kan komme
-d. 25.</label></li>
-<li><strong>Onsdag d. 25. September</strong> (eller de næste to onsdage
-(2. &amp; 9. Oktober))</li>
-<li>Vi vil gerne have disse mennesker med
-<ul>
-<li>Rådmand - Jan Nymark Thaysen</li>
-<li>Havnekaptajn - Claus Resenbech</li>
-<li>Direktør for port of aalborg - Christian Thuelsen Dahl</li>
-<li>Borgmester - Lasse Frimand Jensen</li>
-<li>Byrådsmand - Nuuradiin S. Hussein (13 u projekt på tech
-college)</li>
-<li>Byrådsmand - Evald Lange Rise</li>
-<li>Regatta arrangør - Rikke fra “Aalborg Event”</li>
-</ul></li>
-</ul>
-<h1 id="arbejdshold">Arbejdshold</h1>
-<p>Jeppe og Ida laver et udkast til organisering</p>
-<ul>
-<li>Mængde af arbejdshold</li>
-<li>Udnævnelse af koordinator</li>
-<li>Koordingering af møder</li>
-</ul>
-<ol type="1">
-<li>Fondsøgning - Mangler
-<ul>
-<li></li>
-</ul></li>
-<li>Rig - Frederik
-<ul>
-<li></li>
-</ul></li>
-<li>Motor - Morten Rise
-<ul>
-<li>Jens, Kim</li>
-</ul></li>
-<li>El - Jeppe
-<ul>
-<li>Jakob</li>
-</ul></li>
-<li>Aptering - Mangler
-<ul>
-<li><em>“indvendigt udstyr i en båd eller et skib bl.a. skillevægge og
-møbler”</em> (alt indvendig pjat)</li>
-</ul></li>
-<li>Sikkerhedsudrustning - Amanda
-<ul>
-<li>Tommy, Bo</li>
-<li>Navigationsudstyr</li>
-</ul></li>
-</ol>
-<p>Koordineringsmøder - Hvad skal ansøges af fonder</p>
-<h1 id="sejltur-med-viking">Sejltur med Viking</h1>
-<p>Vi skylder Viking en sejltur. Det skal meget gerne være i Esbjerg.
-Derfor kunne det være en del af togtplanlægning.</p>
-<h1 id="beddingstur-i-foråret">Beddingstur i foråret</h1>
-<p>Vi kan komme til Fredrikshavn, foreningsting som har en bedding som
-måske er gratis (rygtet)</p>
-<p>Amanda har meldt sig som beddingskoordinator</p>
-<ul>
-<li>Må vi låne deres værksted?</li>
-<li>Hvornår må vi ligge der?</li>
-</ul>
-<h1 id="løst">Løst</h1>
-<ul>
-<li>Bibliotekar udnævnes
-<ul>
-<li>Der skal styr på bøgerne</li>
-<li>Der skal laves en rodehylde</li>
-</ul></li>
-<li>Telt Udarbejdet en simpel 3d tegning som er sendt til tech college.
-De laver en prototype (hvis de har lyst) ![[Pasted image
-20240902165213.png|300]]</li>
-<li>Ny søkort</li>
-</ul>
+  <header id="title-block-header">
+    <a href="/">
+      <h1 href="/" class="title">Nyhedsbrev September</h1>
+    </a>
+  </header>
+  <h1 id="indholdsfortegnelse">Indholdsfortegnelse</h1>
+  <ol type="1">
+    <li>Nedrigning</li>
+    <li>Sejladsplan næste år</li>
+    <li>Sejladsplan efterår</li>
+    <li>Styrbord planke skal skiftes af Jens Bådbygger</li>
+    <li>Tryouts
+      <ol type="1">
+        <li>Hver tirsdag</li>
+      </ol>
+    </li>
+    <li>Liggeplads</li>
+    <li>Arbejdshold</li>
+    <li>Ansøgning til skibsbevaringsfonden</li>
+    <li>Sejltur med Viking</li>
+    <li>Beddingstur til foråret</li>
+    <li>Løst</li>
+  </ol>
+  <h1 id="nedrigning">Nedrigning</h1>
+  <p><strong>12-13. oktober!</strong></p>
+  <ul>
+    <li><label><input type="checkbox" />Frederik laver en liste over hvad
+        der skal hjem til Bo</label>
+      <ul>
+        <li>Hynder, bøger, sejl mm…
+          <ul>
+            <li>Der er et hul i betrækket på en hynde</li>
+          </ul>
+        </li>
+        <li>Der er også en liste over ting der skal fikses. De ting skal ikke
+          hjem til Bo</li>
+      </ul>
+    </li>
+    <li>Skibsbibliotekar udnævnes - Amanda</li>
+  </ul>
+  <h1 id="sejladsplan-næste-år">Sejladsplan næste år</h1>
+  <p>Vi har tilmeldt os hele tallship races i 2025</p>
+  <ul>
+    <li>Tall ships glæder sig til vi kommer (skrevet på mail)</li>
+  </ul>
+  <p>3 stk. - 3 ugers togter (det første skal starte meget tidligt)</p>
+  <ol type="1">
+    <li>Aalborg-Sønderborg en weekend + fredag</li>
+    <li>Første togt er de to første havne (Sønderborg - Le Havre - Dunkirk)
+      <ol type="1">
+        <li>Alternativt (Aalborg - Le Havre - Dunkirk)</li>
+        <li>Alternativt (Brunsbüttel - Le Havre - Dunkirk)</li>
+      </ol>
+    </li>
+    <li>Anden togt er Dunkirk - Aberdeen - Kristiansand</li>
+    <li>Tredje togt er Christiansand - Esbjerg - Aalborg Alternativ er
+      Esbjerg - Øresund (Øresund på langs)</li>
+  </ol>
+  <ul class="task-list">
+    <li><label><input type="checkbox" />Bo laver en officielt togt
+        plan</label></li>
+  </ul>
+  <p>Hvis der er nogen som virkelig gerne vil sejle Øresund på langs kan
+    de kontakte Jens som muligvis har en kontakt som kan skaffe pladser
+    ombord på et skib</p>
+  <h1 id="sejladsplan-efterår">Sejladsplan efterår</h1>
+  <p>Limfjorden Rundt - uge 37 Weekendsejladser:</p>
+  <ol type="1">
+    <li>Fredag d. 20. September</li>
+    <li>Torsdag d. 3. Oktober</li>
+  </ol>
+  <h1 id="tryouts">Tryouts</h1>
+  <ol type="1">
+    <li>Hver tirsdag kl 16-18 (måske senere)</li>
+  </ol>
+  <ul>
+    <li>Der skal laves mad hver gang</li>
+    <li>Fast besætning:
+      <ul>
+        <li>Jeppe</li>
+        <li>Kat</li>
+        <li>Amanda</li>
+        <li>Malene</li>
+        <li>Jens</li>
+        <li>Ekstra folk / byt med fast besætning</li>
+      </ul>
+    </li>
+  </ul>
+  <ol type="1">
+    <li>Afsluttes 08/10</li>
+  </ol>
+  <h1 id="liggeplads">Liggeplads</h1>
+  <p>Bo har skrevet til rådmanden</p>
+  <ul>
+    <li>Til regatta sagde han det var spændende at finde ud af om vi kunne
+      være her</li>
+    <li>Dvs. vi ikke ved om vi kan blive liggende</li>
+  </ul>
+  <p>Morten har skrevet til skudehavnen uden held (de svarer ikke)</p>
+  <p>I vintermånederne kunne vi ligge os i skudehavnen for at undgå så
+    meget vind og vejr</p>
+  <p>Kan vi få en rådmand herned til en onsdagssejlads hvor vi virkelig
+    viser os frem som en ungdomsorganisation?</p>
+  <ul>
+    <li><label><input type="checkbox" />Et event - Planlagt af
+        Amanda</label></li>
+    <li>Stor fremmødning - gerne i Betty tøj</li>
+    <li><label><input type="checkbox" />Morten skriver et
+        udkast</label></li>
+    <li><label><input type="checkbox" />Bo ringer til Jan Nymark Thaysen og
+        pitcher eventet og hører hvad han tænker og om han kan komme
+        d. 25.</label></li>
+    <li><strong>Onsdag d. 25. September</strong> (eller de næste to onsdage
+      (2. &amp; 9. Oktober))</li>
+    <li>Vi vil gerne have disse mennesker med
+      <ul>
+        <li>Rådmand - Jan Nymark Thaysen</li>
+        <li>Havnekaptajn - Claus Resenbech</li>
+        <li>Direktør for port of aalborg - Christian Thuelsen Dahl</li>
+        <li>Borgmester - Lasse Frimand Jensen</li>
+        <li>Byrådsmand - Nuuradiin S. Hussein (13 u projekt på tech
+          college)</li>
+        <li>Byrådsmand - Evald Lange Rise</li>
+        <li>Regatta arrangør - Rikke fra “Aalborg Event”</li>
+      </ul>
+    </li>
+  </ul>
+  <h1 id="arbejdshold">Arbejdshold</h1>
+  <p>Jeppe og Ida laver et udkast til organisering</p>
+  <ul>
+    <li>Mængde af arbejdshold</li>
+    <li>Udnævnelse af koordinator</li>
+    <li>Koordingering af møder</li>
+  </ul>
+  <ol type="1">
+    <li>Fondsøgning - Mangler
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li>Rig - Frederik
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li>Motor - Morten Rise
+      <ul>
+        <li>Jens, Kim</li>
+      </ul>
+    </li>
+    <li>El - Jeppe
+      <ul>
+        <li>Jakob</li>
+      </ul>
+    </li>
+    <li>Aptering - Mangler
+      <ul>
+        <li><em>“indvendigt udstyr i en båd eller et skib bl.a. skillevægge og
+            møbler”</em> (alt indvendig pjat)</li>
+      </ul>
+    </li>
+    <li>Sikkerhedsudrustning - Amanda
+      <ul>
+        <li>Tommy, Bo</li>
+        <li>Navigationsudstyr</li>
+      </ul>
+    </li>
+  </ol>
+  <p>Koordineringsmøder - Hvad skal ansøges af fonder</p>
+  <h1 id="sejltur-med-viking">Sejltur med Viking</h1>
+  <p>Vi skylder Viking en sejltur. Det skal meget gerne være i Esbjerg.
+    Derfor kunne det være en del af togtplanlægning.</p>
+  <h1 id="beddingstur-i-foråret">Beddingstur i foråret</h1>
+  <p>Vi kan komme til Fredrikshavn, foreningsting som har en bedding som
+    måske er gratis (rygtet)</p>
+  <p>Amanda har meldt sig som beddingskoordinator</p>
+  <ul>
+    <li>Må vi låne deres værksted?</li>
+    <li>Hvornår må vi ligge der?</li>
+  </ul>
+  <h1 id="løst">Løst</h1>
+  <ul>
+    <li>Bibliotekar udnævnes
+      <ul>
+        <li>Der skal styr på bøgerne</li>
+        <li>Der skal laves en rodehylde</li>
+      </ul>
+    </li>
+    <li>Telt Udarbejdet en simpel 3d tegning som er sendt til tech college.
+      De laver en prototype (hvis de har lyst) ![[Pasted image
+      20240902165213.png|300]]</li>
+    <li>Ny søkort</li>
+  </ul>
 </body>
+
 </html>
